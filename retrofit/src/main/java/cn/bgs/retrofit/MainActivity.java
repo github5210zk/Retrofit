@@ -7,8 +7,8 @@ import android.util.Log;
 
 import cn.bgs.retrofit.bean.GetBean;
 import cn.bgs.retrofit.bean.PostBean;
-import cn.bgs.retrofit.r.PostService;
-import cn.bgs.retrofit.r1.GetService;
+import cn.bgs.retrofit.postrequst.PostService;
+import cn.bgs.retrofit.getrequest.GetService;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

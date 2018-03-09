@@ -1,11 +1,10 @@
-package cn.bgs.retrofit.r1;
+package cn.bgs.retrofit.getrequest;
 
 import java.util.HashMap;
 
 import cn.bgs.retrofit.bean.GetBean;
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 import retrofit2.http.QueryMap;

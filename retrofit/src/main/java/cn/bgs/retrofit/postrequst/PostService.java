@@ -1,4 +1,4 @@
-package cn.bgs.retrofit.r;
+package cn.bgs.retrofit.postrequst;
 
 import java.util.Map;
 
