@@ -2,7 +2,7 @@ package cn.bgs.retrofit;
 
 import org.junit.Test;
 
-import cn.bgs.retrofit.utils.RefrofitUtil;
+import cn.bgs.retrofit.utils.RetrofitHelper;
 
 import static org.junit.Assert.*;
 
@@ -18,7 +18,7 @@ public class ExampleUnitTest {
     }
     @Test
     public void getTest(){
-        RefrofitUtil refrofitUtil=new RefrofitUtil();
+        RetrofitHelper refrofitUtil=new RetrofitHelper();
         String request = refrofitUtil.getRequest();
         assertEquals("222", request);
 
